@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap" rel="stylesheet">"
+<link rel="stylesheet" href="style.css">
+
+<style>
+    
+    body {
+        
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('https://t4.ftcdn.net/jpg/03/50/81/89/360_F_350818949_lJTfzSTDr79e9Kn55PUVZjN19ct20uGc.jpg');
+        
+        background-size: cover;
+        font-family: 'Ubuntu Mono', monospace;
+    }
+
+    .left img {
+        width: 123px;
+        /* filter: invert(50); */
+    }
+
+
+    .left {
+
+        position: absolute;
+        display: inline-block;
+        left: 3px;
+        top: 0px;
+
+        color: white;
+    }
+
+    .right {
+        display: inline-block;
+
+        position: absolute;
+        right: 34px;
+        top: 20px;
+    }
+
+    .mid {
+        background-color: black;
+position: sticky;
+        display: block;
+        width: 52%;
+        margin: 0px auto;
+        border-radius: 20px;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 24px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        padding: 34px 23px;
+        text-decoration: none;
+        display: inline;
+
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    
+
+    .btn {
+        margin: 0px 9px;
+        background-color: red;
+        opacity: 0.6;
+        color: white;
+        padding: 13px 12px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-family: 'Ubuntu Mono', monospace;
+    }
+
+    .right :hover
+     {
+        opacity: 1;
+    }
+
+    .submit :hover
+     {
+        opacity: 1;
+    }
+
+    .container {
+        /* border: 2px solid green; */
+        margin: 71px 2px;
+        padding: 50px 113px;
+        border-radius: 26px;
+        width: 33%;
+        background-color: black;
+    }
+    .formgroup input{
+        text-align: center;
+        display: block;
+        padding: 6px;
+        border-radius: 10px;
+        width: 440px;
+        font-size: 25px;
+        font-family: 'Ubuntu Mono', monospace;
+margin: 11px;
+
+    }
+
+.container h1{
+    text-align: center;
+}
+    .container button{
+        display: block;
+        width: 88.25%;
+
+    }
+</style>
+
+<body>
+    <header class="class">
+        <div class="left">
+            <img src="https://marketplace.canva.com/EAEmwiS9abI/1/0/1600w/canva-black-and-white-illustrative-hand-weightlifting-badge-health-and-fitness-gym-logo-2-_2is5Q1-k.jpg" alt="not found">
+
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">FITNESS CALCULATOR</a></li>
+                <li><a href="#">SUPPORT</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">CALL US NOW</button><button class="btn">EMAIL US</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>JOIN THE BEST GYM OF KOLKATA</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="ENTER YOUR NAME">
+            </div>
+            <div class="formgroup"> <input type="text" name="" placeholder="MOBILE NUMBER">
+            </div>
+            <div class="formgroup"><input type="text" name="" placeholder="EMAIL ADDRESS">
+                <div class="formgroup"><input type="text" name="" placeholder="SUGGESTIONS">
+            </div>
+            <div class="formgroup"><input type="text" name="" placeholder="GENDER">
+            </div> <div class="formgroup"><input type="text" name="" placeholder="ADDRESS">
+            </div>
+            <div class="submit">
+                <button class="btn">SUBMIT </button>
+            </div>
+            
+        </form>
+    </div>
+</body>
+
+</html>
